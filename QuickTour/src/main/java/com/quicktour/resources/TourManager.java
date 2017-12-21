@@ -65,7 +65,6 @@ public class TourManager {
 		packageInfo.setStatus("process");
 
 		packages.put(packageInfo.getOrderNum(), packageInfo);
-		System.out.println(packages);
 		streamingOutput = new PackageInfoStreamingOutput(packageInfo);
 
 		return streamingOutput;
